@@ -1,0 +1,11 @@
+type Query {
+	firstQuery : String
+	secondQuery : String
+	portfolioCharacteristicsInfoList(id :[Int]) : PortfolioCharacteristicsScalar
+}
+
+scalar PortfolioCharacteristicsScalar
+
+
+
+
